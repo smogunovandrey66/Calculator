@@ -24,6 +24,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		83A4BB782D489416007B2755 /* Calculator.xctestplan */ = {isa = PBXFileReference; lastKnownFileType = text; path = Calculator.xctestplan; sourceTree = "<group>"; };
 		83BB54DF2D46874B00CDAE0C /* Calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BB54EF2D46874F00CDAE0C /* CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		83BB54F92D46874F00CDAE0C /* CalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -44,6 +45,8 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			path = CalculatorUITests;
 			sourceTree = "<group>";
+			usesTabs = 0;
+			wrapsLines = 1;
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
@@ -75,6 +78,7 @@
 		83BB54D62D46874B00CDAE0C = {
 			isa = PBXGroup;
 			children = (
+				83A4BB782D489416007B2755 /* Calculator.xctestplan */,
 				83BB54E12D46874B00CDAE0C /* Calculator */,
 				83BB54F22D46874F00CDAE0C /* CalculatorTests */,
 				83BB54FC2D46874F00CDAE0C /* CalculatorUITests */,
