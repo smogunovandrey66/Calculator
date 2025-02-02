@@ -1,0 +1,37 @@
+{
+  "configurations" : [
+    {
+      "id" : "41C6BA6D-E2A4-4FA6-ACDA-E9CBA77643DA",
+      "name" : "Test Scheme Action",
+      "options" : {
+
+      }
+    }
+  ],
+  "defaultOptions" : {
+    "targetForVariableExpansion" : {
+      "containerPath" : "container:Calculator.xcodeproj",
+      "identifier" : "83BB54DE2D46874B00CDAE0C",
+      "name" : "Calculator"
+    }
+  },
+  "testTargets" : [
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Calculator.xcodeproj",
+        "identifier" : "83BB54EE2D46874F00CDAE0C",
+        "name" : "CalculatorTests"
+      }
+    },
+    {
+      "parallelizable" : true,
+      "target" : {
+        "containerPath" : "container:Calculator.xcodeproj",
+        "identifier" : "83BB54F82D46874F00CDAE0C",
+        "name" : "CalculatorUITests"
+      }
+    }
+  ],
+  "version" : 1
+}
